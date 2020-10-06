@@ -12,6 +12,9 @@ class Doctor
     @appointments = []
     @@all << self
   end
+  
+  def appointments 
+    
 
   def new_appointment(date, patient)
      appointment = Appointment.new(patient, date, self)
